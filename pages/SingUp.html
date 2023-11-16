@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SingUp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <nav class="navbar border-bottom border-dark-subtle">
+      <div class="d-flex justify-content-around align-items-center w-100 px-2">
+        <div class="container-fluid d-flex justify-content-start">
+          <img
+            src="../blog.png"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+          <a class="navbar-brand" href="#"> Blog. </a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <!-- Background image -->
+      <div
+        class="p-5 w-100 d-flex justify-content-center align-content-center"
+        style="height: 84vh"
+      >
+        <div
+          class="bg-light rounded d-flex flex-column justify-content-evenly align-items-center p-5 h-auto"
+        >
+          <h2 class="mt-2">Sign Up</h2>
+          <input
+            id="userName"
+            type="text"
+            placeholder="Your Name:"
+            class="mb-1"
+          />
+          <small></small>
+          <input id="email" type="email" placeholder="Email:" class="mb-1" />
+          <small></small>
+          <input
+            id="password"
+            type="password"
+            placeholder="password:"
+            class="mb-2"
+          />
+          <small></small>
+          <button id="btn" class="btn mt-2">Sign Up</button>
+
+          <p>I have acount <a href="./Login.html">LogIn</a></p>
+        </div>
+      </div>
+      <!-- Background image -->
+      <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">© 2020 Copyright:</div>
+      </footer>
+    </header>
+    <div
+      class="toast align-items-center text-bg-primary border-0"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">Hello, world! This is a toast message.</div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+  </body>
+
+  <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+  ></script>
+
+  <script src="../Js/signUp.js"></script>
+</html>

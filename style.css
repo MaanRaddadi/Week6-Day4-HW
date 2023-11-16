@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Balsamiq Sans:700|Balsamiq Sans:400");
+:root {
+  --text: #171602;
+  --background: #fdfcec;
+  --primary: #16e3d6;
+  --secondary: #fdface;
+  --accent: #da17e8;
+}
+.navbar {
+  background-color: var(--background) !important;
+}
+body {
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+} /* 16px */
+
+h1 {
+  font-size: 4.21rem; /* 67.36px */
+}
+
+h2 {
+  font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+  font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+  font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+  font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+  font-size: 0.75rem;
+  color: red;
+  font-weight: bold; /* 12px */
+}
+.main-container {
+  background-color: var(--secondary);
+}
+#addBtn,
+#deleteBtn,
+.btn {
+  color: black !important;
+  background-color: var(--primary) !important;
+  border: none !important;
+}
+header {
+  background: rgb(22, 227, 214);
+  background: linear-gradient(
+    270deg,
+    rgba(22, 227, 214, 1) 35%,
+    rgba(218, 23, 232, 1) 100%
+  );
+}
+input {
+  border: 1px solid rgba(142, 142, 142, 0.486);
+  border-radius: 5px;
+
+  padding: 10px;
+}
+td {
+  border: solid 2px rgb(0, 0, 0);
+}

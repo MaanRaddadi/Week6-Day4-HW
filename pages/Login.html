@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <nav class="navbar border-bottom border-dark-subtle">
+      <div class="d-flex justify-content-around align-items-center w-100 px-2">
+        <div class="container-fluid d-flex justify-content-start">
+          <img
+            src="../blog.png"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+          <a class="navbar-brand" href="#"> Blog. </a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <!-- Background image -->
+      <div
+        class="p-5 w-100 d-flex justify-content-center align-items-center"
+        style="height: 84vh"
+      >
+        <div
+          class="bg-light rounded d-flex flex-column justify-content-evenly align-items-center p-4 h-auto"
+        >
+          <h2>Login</h2>
+          <input id="email" type="text" placeholder="Email:" class="mb-1" />
+          <small></small>
+          <input
+            id="password"
+            type="password"
+            placeholder="password:"
+            class="mb-2"
+          />
+          <small></small>
+          <button id="btn" class="btn mb-1" type="button">Login</button>
+          <small></small>
+          <p>I have acount <a href="./SingUp.html">Sign Up</a></p>
+        </div>
+      </div>
+      <!-- Background image -->
+      <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">© 2020 Copyright:</div>
+      </footer>
+    </header>
+  </body>
+
+  <script src="../Js/logIn.js"></script>
+</html>
